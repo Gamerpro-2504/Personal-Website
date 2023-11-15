@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding-top:650px;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(violet,red);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family:'Cedarville Cursive', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 0px;
+    z-index: 10;
+    top: 8px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    font-size: 30px;
+    background-color: white;
+}
+.links a:hover{
+    color: black;
+}
+#welcome h2{
+    font-family: 'Dancing Script', cursive;
+}
+#write a{
+    font-size: 35px;
+}
+.contact1 h2{
+    display: inline;
+    color: blue;
+}
